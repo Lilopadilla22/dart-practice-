@@ -17,8 +17,8 @@ void main () {
   print('List: ${reverseNumber.toList()}');
   print('Set: ${reverseNumber.toSet()}'); // Valores unicos, quita los duplicados { , , ,} no es quite value parse
 
-  final numbersGreartesThat5 = numbers.where((num) {
-    return num > 5;
+  final numbersGreartesThat5 = numbers.where(( int num) {
+    return num > 5; //true
   });
 
   print('numbersGreartesThat5 iterable: ${numbersGreartesThat5}'); // (6, 6, 7, 8, 8, 8, 9)
